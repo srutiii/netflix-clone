@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Netflix fonts */
+@font-face{
+    font-family: 'Nsans Light';
+    src: url("src/assets/NetflixSans-Light.woff2");
+}
+
+@font-face{
+    font-family: 'Nsans Medium';
+    src: url("src/assets/NetflixSans-Medium.woff2");
+}
+
+@font-face{
+    font-family: 'Nsans Regular';
+    src: url("src/assets/NetflixSans-Regular.woff2");
+}
+
+@font-face{
+    font-family: 'Nsans Bold';
+    src: url("src/assets/NetflixSans-Bold.woff2");
+}
+
+body{
+    font-family: "Nsans Regular", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
