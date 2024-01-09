@@ -1,5 +1,6 @@
 # Netflix Clone | React | TailwindCss | Firebase
 
+![Alt text](<Screenshot from 2024-01-09 13-09-12.png>)
 
 ## Overview
 This Netflix clone, developed with React, Tailwind CSS, and Firebase, faithfully mirrors Netflix's UI. Users can authenticate, add/remove favorite movies, and personalize profiles. The responsive design ensures an optimal viewing experience across devices. Seamless login/signup functionality enhances the experience, while Firebase handles movie data retrieval and user authentication.
