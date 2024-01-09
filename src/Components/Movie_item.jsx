@@ -5,7 +5,7 @@ import { UserAuth } from "../context/AuthContext";
 import {db} from '../services/firebase'
 import { useState } from "react";
 
-const Movie_item = ({ movie }) => {
+const Movie_item = ({movie} ) => {
   const [like, setLike] = useState(false);
   const { title, backdrop_path } = movie;
   const {user} = UserAuth()
@@ -16,6 +16,7 @@ const Movie_item = ({ movie }) => {
     if (userEmail) {
       const userDoc = doc(db, "users", userEmail);
       setLike(!like);
+
       await updateDoc(userDoc, {
         favShows: arrayUnion({ ...movie }),
       });
@@ -30,7 +31,7 @@ const Movie_item = ({ movie }) => {
 
       <div className="absolute top-0 left-0 w-full h-40 bg-black/80 opacity-0 hover:opacity-100 ">
         <p className="whitespace-normal text-xs md:text-sm font-nsans-bold flex justify-center items-center h-full">
-          {movie.title}
+          {title}
         </p>
         <div>
           <p className="cursor-pointer" onClick={markFavShow}>

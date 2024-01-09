@@ -9,10 +9,10 @@
     font-family: 'Nsans Medium';
     src: url("./assets/NetflixSans-Medium.woff2");
 }
-@font-face{
+/* @font-face{
     font-family: 'Nsans Light';
     src: url("./src/assets/NetflixSans-Light.woff2");
-}
+} */
 
 @font-face{
     font-family: 'Nsans Regular';

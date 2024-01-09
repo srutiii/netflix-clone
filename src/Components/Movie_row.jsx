@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Movie_item from "./Movie_item";
 import { MdChevronRight, MdChevronLeft } from "react-icons/md";
 
-function Movie_row({ title, url }) {
+function Movie_row( {title, url }) {
   const rowId = Math.floor(Math.random() * 1000);
   const [movies, setMovies] = useState([]);
 
