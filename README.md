@@ -3,13 +3,16 @@
 ![Alt text](<Screenshot from 2024-01-09 13-09-12.png>)
 ![Alt text](image.png)
 
-SignUp Page: New users can signup using email and password.
+- SignUp Page: New users can signup using email and password.
+
 ![Alt text](<Screenshot from 2024-01-09 13-09-26.png>)
 
-Login Page: Existing users can login using email and password.
+- Login Page: Existing users can login using email and password.
+  
 ![Alt text](<Screenshot from 2024-01-09 13-09-36.png>)
 
-Profile: After successfull signup or login, users can add and remove fav shows from their profile.
+- Profile: After successfull signup or login, users can add and remove fav shows from their profile.
+  
 ![Alt text](<Screenshot from 2024-01-09 13-10-28.png>)
 
 
